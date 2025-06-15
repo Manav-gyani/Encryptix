@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ToDoApplicationJava</string>
+    <string name="todo">TODO</string>
+    <string name="new_task">new_task</string>
+    <string name="save" />
+    <string name="hint_new_task">Add Task</string>
+</resources>
