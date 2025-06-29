@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#2C2C2C"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="28sp"
+        android:fontFamily="sans-serif-black"
+        android:layout_centerHorizontal="true"
+        android:textColor="#F5F5DC"
+        android:text="QUOTE" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textSize="30sp"
+        android:text="              "
+        tools:text="Here The Quote Will Be Displayed"
+        android:textColor="#F5F5DC"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:id="@+id/quote_tv"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/quote_tv"
+        tools:text="Easy Manav"
+        android:textSize="24sp"
+        android:fontFamily="serif-monospace"
+        android:textColor="#AEAEAE"
+        android:layout_marginTop="16dp"
+        android:id="@+id/authorTv"
+        android:gravity="center"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="#D4AF37"
+        android:textColor="#F5F5DC"
+        android:id="@+id/next_btn"/>
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/progress_bar"
+        android:visibility="gone"/>
+</RelativeLayout>
